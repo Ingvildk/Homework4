@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Homework4" x:Class="Homework4.Homework4Page">
+    <StackLayout Padding="10,15">
+        <Label
+            Text="Cities in Norway" />
+        <ListView 
+            x:Name="listView" 
+            Margin="30"
+            HasUnevenRows="true"
+            IsPullToRefreshEnabled="true" 
+            Refreshing="Handle_Refreshing" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell
+                            Text="{Binding ImageText}"
+                            Detail="{Binding ImageDetailText}"
+                            ImageSource="{Binding ImageSource}"
+                            CommandParameter = "{Binding ImageURL}" >
+                            <ImageCell.ContextActions>
+                                <MenuItem
+                                    Text="More"
+                                    CommandParameter="{Binding ImageURL}" 
+                                    IsDestructive="true"
+                                    Clicked="Handle_Clicking_More_Button">
+                                </MenuItem>
+                                <MenuItem
+                                    Text="Delete"
+                                    IsDestructive="True"
+                                    Clicked="Handle_Clicked"
+                                    CommandParameter="{Binding Key}"
+                            />
+                            </ImageCell.ContextActions>
+                        </ImageCell>    
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

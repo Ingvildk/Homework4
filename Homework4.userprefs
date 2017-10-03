@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{389A3BD5-3C23-4629-A72C-81930C766930}|Default">
+  <MonoDevelop.Ide.ItemProperties.Homework4.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.33D28AA7-640B-4506-AD5F-D16B2100759F">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Homework4.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Homework4/App.xaml.cs">
+    <Files>
+      <File FileName="Homework4/Homework4Page.xaml.cs" Line="151" Column="51" />
+      <File FileName="Homework4/Homework4Page.xaml" Line="39" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="2" Column="13" />
+      <File FileName="Homework4/Models/ListViewDataSource.cs" Line="7" Column="1" />
+      <File FileName="Homework4/BarumPage.xaml" Line="6" Column="1" />
+      <File FileName="Homework4/BarumPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Homework4/OsloPage.xaml" Line="6" Column="1" />
+      <File FileName="Homework4/OsloPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Homework4/StavangerPage.xaml" Line="6" Column="1" />
+      <File FileName="Homework4/StavangerPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Homework4/NarvikPage.xaml" Line="6" Column="1" />
+      <File FileName="Homework4/NarvikPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Homework4/KristiansandPage.xaml" Line="6" Column="1" />
+      <File FileName="Homework4/KristiansandPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Homework4/BergenPage.xaml" Line="6" Column="1" />
+      <File FileName="Homework4/BergenPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Homework4/SvalbardPage.xaml" Line="6" Column="1" />
+      <File FileName="Homework4/SvalbardPage.xaml.cs" Line="10" Column="30" />
+      <File FileName="Homework4/App.xaml" Line="7" Column="1" />
+      <File FileName="Homework4/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
